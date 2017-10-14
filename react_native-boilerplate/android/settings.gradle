@@ -1,0 +1,3 @@
+rootProject.name = 'tourist_guide'
+
+include ':app'
