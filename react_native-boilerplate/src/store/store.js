@@ -1,10 +1,10 @@
 import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import { autoRehydrate } from 'redux-persist';
-import { MessageReducer } from './reducers';
+import { DemoReducer } from './reducers';
 
 const rootReducer = combineReducers({
-    MessageReducer
+    DemoReducer
 });
 
 const Store = createStore(rootReducer, undefined, compose(applyMiddleware(thunk), autoRehydrate()));

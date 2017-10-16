@@ -1,7 +1,5 @@
-import App from './App/app.js';
-import Login from './Login/login.js';
+import Demo from './Demo/demo.js';
 
 export {
-    App,
-    Login
+    Demo
 }

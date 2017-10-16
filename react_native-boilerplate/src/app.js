@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import Store from './store/store.js';
-import Routes from './routes/routes';
+import Routes from './routes';
 
 class App extends React.Component {
 

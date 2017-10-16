@@ -1,5 +1,5 @@
-import MessageReducer from './messageReducer';
+import DemoReducer from './demoReducer.js';
 
 export {
-    MessageReducer
+    DemoReducer
 }

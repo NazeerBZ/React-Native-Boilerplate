@@ -1,18 +1,12 @@
 
 
-export default class Actions {
+class Actions {
     
-    static snackbarOpenRequest(msg) {
+    static demoaAction(){
         return {
-            type: 'SNACKBAR_OPEN_REQUEST',
-            msg: msg
-        }
-    }
-
-    static snackbarCloseRequest() {
-        return {
-            type: 'SNACKBAR_CLOSE_REQUEST',
-            msg: ''
+            type: 'DEMO_ACTION'
         }
     }
 }
+
+export default Actions;
