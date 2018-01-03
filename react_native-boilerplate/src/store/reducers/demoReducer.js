@@ -8,7 +8,7 @@ function DemoReducer(state = INITIAL_STATE, action) {
     switch (action.type) {
 
         case ActionTypes.DEMO_ACTION:
-            return [...state, action.payload];
+            return {...state, action.payload};
 
         default:
             return state;
