@@ -4,7 +4,7 @@ class DemoMiddleware {
 
     static demo() {
         return (dispatch) => {
-
+            dispatch(Actions.demoaAction());
         }
     }
 }

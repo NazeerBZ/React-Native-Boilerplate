@@ -1,10 +1,11 @@
-
+import ActionType from '../ActionTypes';
 
 class Actions {
-    
-    static demoaAction(){
+
+    static demoaAction(payload) {
         return {
-            type: 'DEMO_ACTION'
+            type: ActionType.DEMO_ACTION,
+            payload: payload
         }
     }
 }
